@@ -151,7 +151,7 @@ position: absolute;
 cursor: pointer;
 color: black;
 font-size: 25px;
-z-index: 999;
+z-index: 900;
 left: 88%;
 `
 

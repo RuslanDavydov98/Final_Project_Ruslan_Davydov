@@ -227,7 +227,7 @@ margin-bottom: 5px;
 cursor: pointer;
 color: black;
 font-size: 25px;
-z-index: 999;
+z-index: 900;
 left: 90%;
 `
 
@@ -239,7 +239,7 @@ margin-bottom: 5px;
 cursor: pointer;
 color: black;
 font-size: 25px;
-z-index: 999;
+z-index: 900;
 left: 90%;
 
 `
