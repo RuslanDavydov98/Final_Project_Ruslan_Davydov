@@ -31,11 +31,11 @@ background-color: white;
 display: flex;
 flex-direction: column;
 
-@media (min-width: 320px) {
+
     width: 150px;
     left: 29%;
     top: 100%;
-}
+
 `
 
 const DropButton = styled.button`
@@ -45,10 +45,9 @@ cursor: pointer;
 font-size: 20px;
 text-align: center;
 
-@media (min-width: 320px) {
     padding-top: 10px;
     padding-bottom: 10px;
-}
+
 
 :hover{
     color: white;
@@ -65,10 +64,10 @@ cursor: pointer;
 font-size: 20px;
 text-align: center;
 
-@media (min-width: 320px) {
+
     padding-top: 10px;
     padding-bottom: 10px;
-}
+
 
 :hover{
     color: white;
@@ -81,38 +80,21 @@ const Wrapper = styled.div`
 background-color: black;
 border-bottom: 0.5px solid white;
 position: fixed;
-width: 100%;
+width: 481px;
 z-index: 999;
+height: 60px;
 
-@media (min-width: 320px) {
-    height: 60px;
-}
-
-@media (min-width: 1024px) {
-    height: 60px;
-}
 `
 
 const Logo = styled.img`
-
-
-
-@media (min-width: 320px) {
-    height: 60px;
-}
-
-
+height: 60px;
 `
 
 const Button = styled.button`
 background: none;
 border: none;
 cursor: pointer;
-
-
-@media (min-width: 320px) {
-    margin-left: 40%;
-}
+margin-left: 40%;
 `
 
 export default Header

@@ -249,22 +249,18 @@ margin-bottom: 30px;
 `
 
 const PostBlock = styled.div`
-width: 100vw;
+width: 480px;
 `
 
 const PostText = styled.div`
 background-color: white;
 color: black;
-
-@media (min-width: 320px) {
-    width: 80%;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    padding: 15px;
-    position: relative;
-    left: 3.5vw;
-}
-
+width: 80%;
+margin-bottom: 30px;
+border-radius: 10px;
+padding: 15px;
+position: relative;
+left: 30px;
 `
 
 const UserInfo = styled(NavLink)`
@@ -272,13 +268,10 @@ text-decoration: none;
 color: white;
 display: flex;
 border-bottom: 1px solid white;
-
-@media (min-width: 320px) {
-    width: 88vw;
-    padding-bottom: 15px;
-    margin-left: 3.5vw;
-    margin-bottom: 15px;
-}
+width: 420px;
+padding-bottom: 15px;
+margin-left: 30px;
+margin-bottom: 15px;
 `
 
 const Name = styled.p`
@@ -291,55 +284,51 @@ font-size: 15px;
 `
 
 const NameBlock = styled.div`
-
-@media (min-width: 320px) {
-    margin-left: 15px;
-    position: relative;
-    top: 5px;
-}
-
+margin-left: 15px;
+position: relative;
+top: 5px;
 `
 const UserPicForPost = styled.img`
-@media (min-width: 320px) {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-}
+width: 40px;
+height: 40px;
+object-fit: cover;
+border-radius: 50%;
 `
 
 const Tabs = styled.div`
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 50px;
-    border-top: 2px solid black;
-    `
+display: flex;
+justify-content: space-between;
+position: relative;
+width: 100%;
+height: 50px;
+border-top: 2px solid black;
+`
 
-    const TabsName = styled.button`
-    background: none;
-    border: none;
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    width: 300px;
-    font-family: Consolas, monaco, monospace;
+const TabsName = styled.button`
+background: none;
+border: none;
+font-size: 25px;
+font-weight: bold;
+color: white;
+text-align: center;
+width: 300px;
+font-family: Consolas, monaco, monospace;
 
-    &:hover{
-    color: black;
-    background-color: white;
-    }
-    `
-    const TabsToggle = styled(TabsName)`
-    ${({ active }) =>
-    active &&
-    `
-    color: black;
-    background-color: white;
-    `}
-    `
+&:hover{
+color: black;
+background-color: white;
+}
+`
+
+const TabsToggle = styled(TabsName)`
+${({ active }) =>
+active &&
+`
+color: black;
+background-color: white;
+`}
+
+`
 
 const Message = styled.p`
 text-align: center;
@@ -350,13 +339,10 @@ cursor: pointer;
 background-color: white;
 color: black;
 border: none;
-
-@media (min-width: 320px) {
-    margin-top: 15px;
-    width: 150px;
-    height: 40px;
-    font-size: 20px;
-}
+margin-top: 15px;
+width: 150px;
+height: 40px;
+font-size: 20px;
 `
 
 const NumOfLikes = styled.p`
@@ -397,38 +383,26 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
-
-@media (min-width: 320px) {
-    
-}
 `
 
 const UserPic = styled.img`
-@media (min-width: 320px) {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: 50px;
-}
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+margin-top: 50px;
 `
 const UserName = styled.p`
 text-align: center;
-
-@media (min-width: 320px) {
-    margin-top: 20px;
-    font-size: 25px;
-}
+margin-top: 20px;
+font-size: 25px;
 `
 
 const UserTag = styled.p`
 opacity: 80%;
-
-@media (min-width: 320px) {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 18px;
-}
+margin-top: 10px;
+margin-bottom: 20px;
+font-size: 18px;
 `
 
 const FollowersBlock = styled.div`
@@ -437,21 +411,15 @@ flex-direction: row;
 width: 100%;
 justify-content: space-between;
 border: 2px solid white;
-
-@media (min-width: 320px) {
-    margin-top: 15px;
-    padding: 15px;
-}
+margin-top: 15px;
+padding: 15px;
 `
 
 const Follows = styled(NavLink)`
 text-decoration: none;
 color: white;
-
-@media (min-width: 320px) {
-    padding-left: 40px;
-    padding-right: 40px;
-}
+padding-left: 40px;
+padding-right: 40px;
 `
 
 const DescBlock = styled.div`
@@ -463,26 +431,19 @@ font-size: 20px;
 padding: 20px;
 `
 const PostsBlock = styled.div`
-
-@media (min-width: 320px) {
-    margin-top: 10px;
-    margin-bottom: 60px;
-}
-
+margin-top: 10px;
+margin-bottom: 60px;
 `
 
 const SinglePost = styled.div`
 background-color: white;
 color: black;
-
-@media (min-width: 320px) {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    width: 80vw;
-    padding: 15px;
-}
+padding-left: 40px;
+padding-right: 40px;
+margin-bottom: 15px;
+border-radius: 10px;
+width: 380px;
+padding: 15px;
 `
 
 // const UserInfo = styled.div`

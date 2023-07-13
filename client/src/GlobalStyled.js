@@ -29,6 +29,15 @@ time, mark, audio, video {
 	font-family: Consolas, monaco, monospace;
 }
 
+body {
+	width: 481px;
+	background-color: black;
+	height: 100%;
+	margin: auto;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
 img{
 	max-width: 100%;
 }

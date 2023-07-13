@@ -34,15 +34,13 @@ background-color: white;
 color: black;
 position: fixed;
 bottom: 0px;
-width: 100%;
+width: 481px;
 display: flex;
 justify-content: space-between;
 border-top: 2px solid black;
 z-index: 999;
+height: 60px;
 
-@media (min-width: 320px) {
-    height: 60px;
-}
 
 `
 
@@ -58,12 +56,11 @@ color: black;
     color: white;
 }
 
-@media (min-width: 320px) {
     height: 60px;
     padding-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
-}
+
 `
 
 const Button = styled.button`
@@ -79,11 +76,11 @@ cursor: pointer;
     color: white;
 }
 
-@media (min-width: 320px) {
+
     height: 60px;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
-}
+
 `
 export default Footer

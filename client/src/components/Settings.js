@@ -88,7 +88,6 @@ z-index: 999;
 font-size: 50px;
 color: white;
 top: 4.3em;
-left: 40%;
 background-color: black;
 padding-left: 10px;
 padding-right: 10px;
@@ -131,7 +130,7 @@ cursor: pointer;
 const Name = styled.input`
 margin-bottom: 10px;
 height: 40px;
-width: 70vw;
+width: 400px;
 font-size: 20px;
 text-align: center;
 
@@ -140,7 +139,7 @@ text-align: center;
 const Handler = styled.input`
 margin-bottom: 10px;
 height: 40px;
-width: 70vw;
+width: 400px;
 font-size: 20px;
 text-align: center;
 
@@ -148,7 +147,7 @@ text-align: center;
 
 const Desc = styled.input`
 height: 100px;
-width: 90vw;
+width: 430px;
 font-size: 20px;
 text-align: center;
 margin-bottom: 20px;

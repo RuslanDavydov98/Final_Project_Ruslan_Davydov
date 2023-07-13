@@ -73,7 +73,7 @@ color: white;
 border: none;
 font-size: 25px;
 position: absolute;
-right: 3vw;
+right: 35vw;
 padding-top: 10px;
 cursor: pointer;
 `
@@ -99,6 +99,7 @@ margin-right: 15px;
 width: 50px;
 height: 50px;
 border-radius: 50%;
+object-fit: cover;
 `
 
 const Name = styled.p`

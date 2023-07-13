@@ -56,13 +56,8 @@ function App() {
   );
 }
 
-
 const Main = styled.div`
-
-@media (min-width: 320px) {
-  padding-top: 70px;
-}
-
+padding-top: 70px;
 color: white;
 min-height: 100vh;
 height: 100%;

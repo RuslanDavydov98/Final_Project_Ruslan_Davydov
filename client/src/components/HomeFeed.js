@@ -154,12 +154,12 @@ const DeleteButton = styled.div`
 background: none;
 border: none;
 position: relative;
+margin-bottom: 5px;
 cursor: pointer;
 color: black;
 font-size: 25px;
 z-index: 900;
-left: 90%;
-margin-bottom: 5px;
+left: 88%;
 `
 
 const NumOfLikes = styled.p`
@@ -169,7 +169,6 @@ position: relative;
 top: 33px;
 left: 83%;
 `
-
 const LikeButton = styled.button`
 display: flex;
 flex-wrap: wrap;
@@ -195,38 +194,37 @@ left: 88%;
 fill: black;
 `
 
-
 const UserInfo = styled(NavLink)`
 text-decoration: none;
 color: white;
 display: flex;
 border-bottom: 1px solid white;
 
-@media (min-width: 320px) {
-    width: 88vw;
+
+    width: 400px;
     padding-bottom: 15px;
-    margin-left: 3.5vw;
+    margin-left: 30px;
     margin-bottom: 15px;
-}
+
 `
 
 const NameBlock = styled.div`
 
-@media (min-width: 320px) {
+
     margin-left: 15px;
     position: relative;
     top: 5px;
-}
+
 
 `
 
 const UserPic = styled.img`
-@media (min-width: 320px) {
+
     width: 40px;
     height: 40px;
     object-fit: cover;
     border-radius: 50%;
-}
+
 `
 
 const Name = styled.p`
@@ -240,23 +238,24 @@ font-size: 15px;
 const Wrapper = styled.div`
 padding-bottom: 50px;
 z-index: 1;
+width: 281px;
 `
 const PostBlock = styled.div`
-width: 100vw;
+width: 480px;
 `
 
 const PostText = styled.div`
 background-color: white;
 color: black;
 
-@media (min-width: 320px) {
+
     width: 80%;
     margin-bottom: 30px;
     border-radius: 10px;
     padding: 15px;
     position: relative;
-    left: 3.5vw;
-}
+    left: 30px;
+
 
 `
 

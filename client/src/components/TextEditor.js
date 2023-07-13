@@ -44,7 +44,6 @@ const TextEditor = (props) => {
         'align', 'color', 'background'
     ];
 
-
     return (
         <Wrapper>
             <PostInput>
@@ -61,22 +60,21 @@ const TextEditor = (props) => {
 const Wrapper = styled.div`
 position: fixed;
 z-index: 999;
-top: 1vh;
-right: 98vw;
+top: 20vh;
+left: calc(${() => {
+    const body = document.body;
+    const computedStyle = getComputedStyle(body);
+    return computedStyle.marginLeft
+}
+} + 50px);
 `
 const PostInput = styled.div`
 background-color: white;
 position: absolute;
 color: black;
 border: 2px solid black;
-
-@media (min-width: 320px) {
-    height: 50vh;
-    width: 93vw;
-    left: 3.3vw;
-    top: 20vh;
-}
-
+height: 50vh;
+width: 380px;
 overflow: hidden;
 overflow-y: scroll;
 `
@@ -91,13 +89,10 @@ font-weight: bold;
 font-size: 20px;
 cursor: pointer;
 border: 3px solid black;
-
-@media (min-width: 320px) {
-    height: 40px;
-    width: 120px;
-    top: 72vh;
-    left: 35vw;
-}
+height: 40px;
+width: 120px;
+top: 52vh;
+left: 120px;
 `
 
 export default TextEditor;
