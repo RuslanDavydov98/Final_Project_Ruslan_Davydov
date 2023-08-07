@@ -96,9 +96,10 @@ color: white;
 border: none;
 font-size: 25px;
 position: absolute;
-right: 35vw;
+right: 10vw;
 padding-top: 10px;
 cursor: pointer;
+z-index: 999;
 `
 const FollowerWrapper = styled(NavLink)`
 text-decoration: none;
